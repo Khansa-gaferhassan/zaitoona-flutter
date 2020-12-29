@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'login-page.dart';
-
+import 'package:zytoona/register-page.dart';
+//import 'login-page.dart';
 class MyApp extends StatelessWidget {
-  const MyApp({Key key}) : super(key: key);
+  
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     home: LoginPage(),
+     home: RegisterPage(),
+    
     );
   }
 }
